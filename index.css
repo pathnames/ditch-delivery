@@ -2,6 +2,7 @@ body{
     background-color: black;
     color:white;
     text-align: center;
+    font-family: sans-serif;
 }
 
 ul{
@@ -18,4 +19,12 @@ footer{
     text-align: center;
     width: 100%;
      
+}
+
+#id{
+    margin-right: 200px;
+}
+
+hr{
+    width: 50%;
 }
