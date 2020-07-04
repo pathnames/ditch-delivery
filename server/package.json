@@ -1,0 +1,22 @@
+{
+  "name": "ditch-delivery",
+  "version": "1.0.0",
+  "description": "Hackathon project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pathnames/ditch-delivery.git"
+  },
+  "author": "Prathamesh Kulkarni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pathnames/ditch-delivery/issues"
+  },
+  "homepage": "https://github.com/pathnames/ditch-delivery#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
