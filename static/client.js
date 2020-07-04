@@ -1,4 +1,5 @@
 var random = document.getElementById('random');
+var estimate = document.getElementById('estimate');
 
 var r_25 = ['Teriyaki Chicken', 'Spinach artichoke pasta', 'Coconut curry chicken', 'Greek gyros with tzatziki sauce', 'General Tso Meatballs', 'Chickpea Waldorf Salad', 'Fettuccine Alfredo', 'Garlic glazed salmon'];
 var r_15 = ['Taco Salad', 'Chicken Pasta', 'The real reuben sandwich', 'Healthy roasted chicken and veggies', 'Quick brownbag burritos', 'Chinese chicken fried rice', 'Chicago style hot dog',  'Great garlic beer steaks'];
@@ -15,3 +16,11 @@ random.addEventListener('click', () => {
 
     window.open(random_urls[randIdx]);
 });
+
+estimate.addEventListener('click', () => {
+    var frequency = document.getElementById('month').textContent;
+    var cost = document.getElementById('cost').textContent;
+
+    console.log(cost);
+    alert(frequency * cost);
+})
