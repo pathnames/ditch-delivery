@@ -1,6 +1,7 @@
 .row {
     display: flex;
     flex-wrap: wrap;
+    padding-top: 50px;
  }
  
  .row > div[class*='col-'] {
