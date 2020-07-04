@@ -1,10 +1,13 @@
 .row {
-    display: flex;
-    flex-wrap: wrap;
-    padding-top: 50px;
- }
- 
- .row > div[class*='col-'] {
-   display: flex;
- }
- 
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 50px;
+}
+
+.row > div[class*='col-'] {
+ display: flex;
+}
+
+body{
+  text-align: center;
+}

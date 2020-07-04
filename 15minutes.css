@@ -1,15 +1,13 @@
 .row {
-    display: flex;
-    flex-wrap: wrap;
- }
- 
- .row > div[class*='col-'] {
-   display: flex;
- }
- 
- a{
-   text-decoration: none;
- }
- a:link{
-   color: black;
- }
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 50px;
+}
+
+.row > div[class*='col-'] {
+ display: flex;
+}
+
+body{
+  text-align: center;
+}
